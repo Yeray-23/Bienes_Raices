@@ -1,0 +1,18 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+@use "sass:math";
+
+
+.footer {
+    padding: math.div(v.$separacion, 2);
+    background-color: v.$grisOscuro;
+}
+
+.contenedor-footer {
+    padding-top: math.div(v.$separacion, 2);
+}
+
+.copyright {
+    color: v.$blanco;
+    text-align: center;
+}
